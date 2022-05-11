@@ -8,6 +8,7 @@
 import Foundation
 
 //3. Взять из прошлого урока enum с действиями над автомобилем. Подумать, какие особенные действия имеет TrunkCar, а какие – SportCar. Добавить эти действия в перечисление.
+
 enum TypeOfCar {
     case sportOne
     case truck
@@ -62,7 +63,7 @@ class TrunkCar: Car {
         case.gasoline:
             print("Warning!\(TypeOfCar.truck) uses \(Fuel.diezel) - buy ONLY diezel!")
         default:
-            print("this part won't be used")
+            print("this part won't be used here")
         }
     }
 }
