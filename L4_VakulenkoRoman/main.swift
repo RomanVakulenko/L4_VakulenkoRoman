@@ -8,11 +8,6 @@
 import Foundation
 
 //3. Взять из прошлого урока enum с действиями над автомобилем. Подумать, какие особенные действия имеет TrunkCar, а какие – SportCar. Добавить эти действия в перечисление.
-enum ActionWithCar {
-    case turnEngineOn, turnEngineOff
-    case openWindows, closeWindows
-    case putCargoInCar, takeOffCargoFromCar
-}
 enum TypeOfCar {
     case sportOne
     case truck
