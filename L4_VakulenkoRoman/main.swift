@@ -51,7 +51,6 @@ class TrunkCar: Car {
             fuel = .gasoline
             print("We changed a type of fuel!")
         }
-            
         if trunkVolume > 999 {
             print("But this is a truck, because of trunk Volume = \(trunkVolume)")
         }
@@ -97,4 +96,4 @@ print("exclusive car - \(porshe911.brand) - a \(porshe911.type.self),\n producti
 var maz9230 = TrunkCar(brand: "MAZ", type: .truck, productionYear: 2010, trunkVolume: 8900, wheels: 6, fuel: .diezel)
 maz9230.changeSmth(changeType: .sportOne, changeFuel: .diezel, trunkVolume: 9999)
 
-print(maz9230.fuel, "\n1 - we inited maz with diezel,\n2 - we changed fuel type to gasoline via function 'changeSmth'")
+print(maz9230.fuel, "\n1 - we inited maz with diezel,\n2 - we changed fuel type to gasoline via function 'changeSmth', and we made it a sport car!")
